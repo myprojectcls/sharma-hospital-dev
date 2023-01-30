@@ -1,0 +1,610 @@
+/* Home Banner Sections */
+.she_home_banner {
+  width: 100%;
+}
+
+.she_banner_home1 {
+  width: 100%;
+  height: 600px;
+  padding: 0px;
+  background: linear-gradient(
+      rgba(156, 177, 255, 0.5),
+      rgba(156, 177, 255, 0.5)
+    ),
+    url("/images/banner1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.she_banner_home2 {
+  width: 100%;
+  height: 600px;
+  padding: 0px;
+  background: linear-gradient(
+      rgba(156, 177, 255, 0.5),
+      rgba(156, 177, 255, 0.5)
+    ),
+    url("/images/banner2.jpg");
+  background-size: 100%;
+}
+
+.she_banner_home3 {
+  width: 100%;
+  height: 600px;
+  padding: 0px;
+  background: linear-gradient(
+      rgba(156, 177, 255, 0.5),
+      rgba(156, 177, 255, 0.5)
+    ),
+    url("/images/banner3.jpg");
+  background-size: 100%;
+}
+
+.she_banner_home_content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.she_home_left {
+  width: 70%;
+  padding-top: 100px;
+}
+
+.she_home_left h1 {
+  font-size: 50px;
+  font-weight: 900 !important;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.she_home_left h4 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.she_home_left p {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* Home Banner Sections */
+
+/* Doctor List */
+
+.she_sub_heading {
+  text-align: center;
+  font-size: 36px !important;
+  color: #fff;
+}
+
+.she_home_horizental_line {
+  background-color: #fff;
+  width: 150px;
+  height: 5px;
+  border: none;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.she_doctor_list {
+  width: 100%;
+  display: block;
+}
+
+.she_doctor_main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.she_doctor_list_img {
+  width: 12%;
+  height: 100%;
+  border-radius: 100%;
+  border: 5px solid #fff;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.she_doctor_list_img img {
+  width: 100%;
+  border-radius: 100%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.she_doctor_list_img img:hover {
+  transform: scale(1.3);
+}
+
+.she_slider {
+  display: block;
+}
+
+.she_slider2 {
+  display: none !important;
+}
+
+/* Doctor List */
+
+/* Services Catagery */
+.she_sub_heading2 {
+  text-align: center;
+  font-size: 36px !important;
+  color: var(--primary-color);
+}
+
+.she_home_horizental_line2 {
+  background-color: var(--primary-color);
+  width: 150px;
+  height: 5px;
+  border: none;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.she_services_main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.she_prodcut1 {
+  width: 32%;
+  margin-bottom: 22px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.she_prodcut1 img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.she_service_tag {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--primary-color);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.she_service_tag h4 {
+  font-size: 21px;
+  text-align: center;
+  margin: 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/* Services Catagery */
+
+/* Testmonials */
+.she_client_slider_main {
+  width: 90%;
+  margin-top: 50px;
+}
+
+.she_client_list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.she_testi_text {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
+.she_list_cts {
+  width: 49%;
+  padding: 25px;
+  background-color: #fff;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.she_testimonials_clients {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.she_testi_img {
+  width: 20%;
+  border-radius: 100%;
+  border: 1px solid var(--primary-color);
+}
+
+.she_testi_img img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.she_testi_cont {
+  width: 75%;
+}
+
+/* Testmonials */
+
+/* Subscribe Tools */
+.she_subscribe_tools {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.she_input_field {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.she_subscribe_tools h1 {
+  color: #fff;
+  width: 56%;
+  font-size: 36px;
+}
+
+.she_input_field input {
+  width: 70%;
+  height: 56px;
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+}
+
+.she_input_field button {
+  width: 30%;
+  height: 56px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: var(--background-color);
+}
+
+/* Subscribe Tools */
+
+.she_get_tuch_in {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.she_left_gettuchin {
+  width: 40%;
+}
+
+/* subscribe Tools */
+
+/* Enquiry Form */
+
+.she_left_gettuchin img {
+  width: 100%;
+}
+
+.she_righ_gettuchin {
+  width: 53%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+}
+
+.she_righ_gettuchin h1 {
+  font-size: 31px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.she_righ_gettuchin input {
+  width: 80%;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.46);
+  outline: none;
+}
+
+.she_righ_gettuchin textarea {
+  width: 80%;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.46);
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.she_righ_gettuchin button {
+  display: block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  color: var(--primary-color);
+  margin: auto;
+}
+
+/* Enquiry Form */
+
+/* about  */
+.she_about_banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/innerbanner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 225px;
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.she_about_titles {
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+}
+
+.she_about_back {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.she_about_back li {
+  list-style-type: none;
+  width: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.she_about_back li a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0px !important;
+  text-align: center;
+}
+
+.she_about_back li:nth-child(2) {
+  border-left: 1px solid #fff;
+  color: var(--primary-color);
+}
+
+.she_about_sec1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.she_about_box1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.she_about_box1 h4 {
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+.she_about_box1 p {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.she_about_box2 {
+  width: 48%;
+  display: flex;
+  justify-content: center;
+}
+
+.she_about_box2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.she_about_line {
+  width: 80px;
+  height: 3px;
+  border: none;
+  background-color: var(--primary-color);
+}
+
+.she_about_sec2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.she_about_wdit {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 30px 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: #fff;
+}
+
+.she_about_wdit img {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 100px;
+} 
+
+.she_about_wdit h5 {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.she_about_wdit p {
+  font-size: 14px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.she_about_partner {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.she_about_partner img {
+  width: 15%;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+/* about */
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 576px) {
+  .she_home_banner {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .she_banner_home1 {
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .she_banner_home2 {
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .she_banner_home3 {
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .she_slider {
+    display: none !important;
+  }
+
+  .she_slider2 {
+    width: 100%;
+    display: block !important;
+  }
+
+  .she_doctor_main {
+    width: 100%;
+  }
+
+  .she_doctor_list_img {
+    width: 30%;
+    border: 2px solid var(--primary-color);
+  }
+}
+
+@media only screen and (min-device-width: 577px) and (max-device-width: 800px) {
+  .she_home_banner {
+    width: 100%;
+  }
+
+  .she_banner_home1 {
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .she_banner_home2 {
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .she_banner_home3 {
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (min-device-width: 801px) and (max-device-width: 1000px) {
+  .she_home_banner {
+    width: 100%;
+  }
+
+  .she_banner_home1 {
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .she_banner_home2 {
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .she_banner_home3 {
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1200px) {
+}
+
+@media only screen and (min-device-width: 1201px) and (max-device-width: 1500px) {
+}

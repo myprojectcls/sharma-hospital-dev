@@ -1,0 +1,13 @@
+    /* Start Color variables  */
+
+    :root {
+        --white-color: #ffffff;
+        --primary-color: #29419b;
+        --black-color: #000000;
+        --secondary-color: #d42427;
+        --text-color: #6c757d ;
+        --placehoder: #74769e;
+        --background-color: #F6F5F5;
+    }
+
+    /* End Color variables */

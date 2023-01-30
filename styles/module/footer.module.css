@@ -1,0 +1,120 @@
+.she_footer_main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.she_footer_block {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.she_footer_block img {
+  width: 70%;
+}
+
+.she_footer_block h4 {
+  font-size: 21px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.she_footer_block p {
+  font-size: 14px;
+  color: #fff;
+  text-align: justify;
+}
+
+.she_footer_block ul {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.she_footer_block ul li {
+  list-style: none !important;
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.social_media {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.social_media span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.she_copy_write {
+  width: 100%;
+  padding: 15px 0px;
+  border-top: 0.5px solid rgba(238, 238, 238, 0.341);
+  border-bottom: 0.5px solid rgba(238, 238, 238, 0.341);
+}
+
+.she_copy_write p {
+  text-align: center;
+  color: rgba(238, 238, 238, 0.627);
+  font-size: 14px;
+}
+
+.she_address_main {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.she_col_1 {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.she_icon {
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.241);
+  margin-right: 20px;
+  color: var(--primary-color);
+}
+
+.she_addcon h6 {
+  font-size: 14px !important;
+  color: var(--text-color);
+}
+
+.she_addcon p {
+  font-size: 14px;
+}
