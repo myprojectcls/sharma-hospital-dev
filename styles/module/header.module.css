@@ -18,6 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .she_header_menu li {
@@ -27,6 +28,7 @@
     font-size: 16px;
     font-weight: 300 !important;
     margin: 0px;
+
     text-align: center;
 }
 

@@ -215,6 +215,39 @@ a {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.dropdown {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-menu {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 300px;
+  padding: 30px;
+  z-index: 1;
+  top: 100%;
+  background-color: #fff;
+  border: 1px solid #4a4a4a00;
+}
+
+.dropdown-menu li {
+  width: 100% !important;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
 @media only screen and (min-device-width: 300px) and (max-device-width: 576px) {
   body {
     margin: 0px;
