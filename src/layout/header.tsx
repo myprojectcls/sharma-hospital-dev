@@ -46,18 +46,18 @@ const Header = () => {
                                     <li className="dropdown"
                                         onMouseEnter={handleMouseEnter}
                                         onMouseLeave={handleMouseLeave}>Services
-                                        {isOpen && (
+                                        {/* {isOpen && (
                                             <ul className="dropdown-menu">
                                                 <li><a href="#">Option 1</a></li>
                                                 <li><a href="#">Option 2</a></li>
                                                 <li><a href="#">Option 3</a></li>
                                             </ul>
-                                        )}
+                                        )} */}
                                     </li>
 
                                 </Link>
                                 <Link href={'/product'}><li>Product</li></Link>
-                                <Link href={'/blog'}><li>Blog</li></Link>
+                                {/* <Link href={'/blog'}><li>Blog</li></Link> */}
                                 <Link href={'/contact'}> <li>Contact</li></Link>
                             </ul>
                         </div>

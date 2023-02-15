@@ -7,7 +7,7 @@ export default function (req: any, res: any) {
         host: "smtp.gmail.com",
         auth: {
             user: 'myprojectcls@gmail.com',
-            pass: 'lofwmlbllbeexcft',
+            pass: '',
         },
         secure: true,
     });
@@ -15,15 +15,35 @@ export default function (req: any, res: any) {
     const mailData = {
         from: 'myprojectcls@gmail.com',
         to: 'myprojectcls@gmail.com',
-        subject: `Message From ${req.body.name}`,
+        // to: `${req.body.email}`,
+        // cc: 'myprojectcls@gmail.com',
+        subject: `From ${req.body.name}`,
         text: req.body.message + " | Sent from: " + req.body.email,
-        html: `<div style="width: 600px; display: flex; justify-content: center; flex-direction: column;,  background-color: #c7c6fb57; border-radius: 10px; padding: 25px; margin: auto;"> <div style="width: 100%; display: flex; justify-content: center; flex-direction: column;">
-            <img src="/public/images/logo.png" style="width: 250px; margin: auto;" alt="Logo">
-            <h4 style="margin: 0px; font-size: 28px; margin-top: 50px;">${req.body.name}</h4>
-            <h4 style="margin: 0px; font-size: 24px;">${req.body.mobile}</h4>
-            <h4 style="margin: 0px; font-size: 24px;">${req.body.email}</h4>
-            <p style="margin-top: 20px; color: #393939; font-size: 16px;">${req.body.message}</p>
-        </div></div>`
+        html: `<div style="width: 600px; background-color: #c7c6fb57; border-radius: 10px; padding: 25px; margin: auto;">
+        <table style="width: 100%; border: 1px solid #ccc; padding: 20px; border-radius: 10px;">
+            <tr>
+                <th colspan="2"
+                    style="border-bottom: 1px solid #ccc; height: 40px; text-align: center; font-size: 24px;">Customer
+                    Details</th>
+            </tr>
+            <tr>
+                <th style="text-align: left;">Name</th>
+                <td>${req.body.name}</td>
+            </tr>
+            <tr>
+                <th style="text-align: left;">Mobile</th>
+                <td>${req.body.mobile}</td>
+            </tr>
+            <tr>
+                <th style="text-align: left;">Email</th>
+                <td>${req.body.email}</td>
+            </tr>
+            <tr>
+                <th style="text-align: left;">Message</th>
+                <td>${req.body.message}</td>
+            </tr>
+        </table>
+    </div>`
     }
 
     transporter.sendMail(mailData, function (err: any, info: any) {

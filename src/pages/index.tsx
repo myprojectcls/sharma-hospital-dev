@@ -1,10 +1,11 @@
 import React, { Fragment, useState } from 'react'
 import Layout from '../layout'
-import styles from '../../styles/module/home.module.css'
+import styles from '../../styles/module/product.module.css'
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Link from 'next/link';
+import ContactForm from '../components/elements/contactForm';
 
 const homeBanner = {
   arrows: false,
@@ -113,83 +114,6 @@ const sheclientslider = {
 
 
 const LandingPages = () => {
-
-  const [name, setName] = useState<any>()
-  const [mobile, setMobile] = useState<any>()
-  const [email, setEmail] = useState<any>()
-  const [message, setMessage] = useState<any>()
-  const [submitted, setSubmitted] = useState(false)
-
-  const [errorState, setErrorState] = useState<any>({
-    nameError: false,
-    mobileError: false,
-    emailError: false,
-    messageError: false,
-  })
-
-  const validateSubmission = () => {
-    let allData = errorState
-    if (!name) {
-      allData = { ...allData, nameError: true }
-    } else {
-      allData = { ...allData, nameError: false }
-    }
-
-    if (!mobile) {
-      allData = { ...allData, mobileError: true }
-    } else {
-      allData = { ...allData, mobileError: false }
-    }
-
-    if (!email) {
-      allData = { ...allData, emailError: true }
-    } else {
-      allData = { ...allData, emailError: false }
-    }
-
-    if (!message) {
-      allData = { ...allData, messageError: true }
-    } else {
-      allData = { ...allData, messageError: false }
-    }
-    setErrorState(allData)
-    if (!allData.nameError && !allData.mobileError && !allData.emailError && !allData.messageError) {
-      sendmail()
-    }
-  }
-
-  const sendmail = () => {
-    console.log('Sending')
-    let data = {
-      name,
-      mobile,
-      email,
-      message
-    }
-
-    fetch('/api/contact', {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json, text/plain, */*',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(data)
-    }).then((res) => {
-      console.log('Response received')
-      if (res.status === 200) {
-        console.log('Response succeeded!')
-        setSubmitted(true)
-        setName('')
-        setMobile('')
-        setEmail('')
-        setMessage('')
-      }
-    })
-  }
-
-
-
-
 
   return (
     <Fragment>
@@ -518,28 +442,7 @@ const LandingPages = () => {
           </div>
         </section>
 
-        <section className='she_section_card' style={{ backgroundColor: "#fff" }}>
-          <div className="container">
-            <div className={styles.she_get_tuch_in}>
-              <div className={styles.she_left_gettuchin}>
-                <img src="/images/she_get_tuch_in.jpg" alt="she_get_tuch_in" />
-              </div>
-              <div className={styles.she_righ_gettuchin}>
-                <h1>Get In Touch</h1>
-                <input value={name} onChange={(event) => { setName(event.target.value) }} type="text" placeholder='Name*' />
-                {errorState.nameError && <p className={styles.error}>This field is required*</p>}
-                <input value={mobile} onChange={(event) => { setMobile(event.target.value) }} type="text" placeholder='Mobile*' />
-                {errorState.mobileError && <p className={styles.error}>This field is required*</p>}
-                <input value={email} onChange={(event) => { setEmail(event.target.value) }} type="text" placeholder='Email*' />
-                {errorState.emailError && <p className={styles.error}>This field is required*</p>}
-                <textarea value={message} onChange={(event) => { setMessage(event.target.value) }} placeholder='Message*'></textarea>
-                {errorState.messageError && <p className={styles.error}>This field is required*</p>}
-                <button onClick={validateSubmission}>Submit</button>
-              </div>
-            </div>
-          </div>
-        </section>
-
+        <ContactForm />
       </Layout>
     </Fragment >
   )
