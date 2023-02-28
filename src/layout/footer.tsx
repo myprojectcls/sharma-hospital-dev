@@ -34,20 +34,36 @@ const Footer = () => {
             <div className={styles.she_footer_useful}>
               <h4>Useful Links</h4>
               <ul>
-                <li>About</li>
-                <li>Product</li>
-                <li>Services</li>
-                <li>Blog</li>
-
+                <Link href={'/about'}>
+                  <li>About</li>
+                </Link>
+                <Link href={'/product'}>
+                  <li>Product</li>
+                </Link>
+                <Link href={'/services'}>
+                  <li>Services</li>
+                </Link>
+                <Link href={'/blog'}>
+                  <li>Blog</li>
+                </Link>
               </ul>
             </div>
             <div className={styles.she_footer_other}>
               <h4>Other Links</h4>
               <ul>
-                <li>Contact</li>
-                <li>Careers</li>
-                <li>Privacy Policy</li>
-                <li>Terms & Conditions</li>
+                <Link href={'/contact'}>
+                  <li>Contact</li>
+
+                </Link>
+                <Link href={'/contact'}>
+                  <li>Careers</li>
+                </Link>
+                <Link href={'/contact'}>
+                  <li>Privacy Policy</li>
+                </Link>
+                <Link href={'/contact'}>
+                  <li>Terms & Conditions</li>
+                </Link>
               </ul>
             </div>
             <div className={styles.she_footer_block}>

@@ -42,11 +42,11 @@ const Header = () => {
                         </div>
                         <ul className={styles.she_nav_menu}>
                             <li><a href="/">Home</a></li>
-                            <li><a href="/">About</a></li>
-                            <li><a href="/">Product</a></li>
-                            <li><a href="/">Services</a></li>
-                            <li><a href="/">Blog</a></li>
-                            <li><a href="/">Contact</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/product">Product</a></li>
+                            <li><a href="/services">Services</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </nav>
                 </div>

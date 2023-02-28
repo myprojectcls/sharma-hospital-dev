@@ -1,0 +1,31 @@
+.she_product_main {
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.she_home_horizental_line2 {
+    background-color: var(--primary-color);
+    width: 100px;
+    height: 5px;
+    border: none;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.she_slide_card {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.she_slide_card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.she_slide_card h5 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0px;
+    padding: 10px 0px;
+}

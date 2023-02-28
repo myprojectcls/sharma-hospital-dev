@@ -1,74 +1,3 @@
-/* Home Banner Sections */
-
-.she_home_banner {
-  width: 100%;
-}
-
-.she_banner_home1 {
-  width: 100%;
-  height: 600px;
-  padding: 0px;
-  background: linear-gradient(rgba(156, 177, 255, 0.5),
-      rgba(156, 177, 255, 0.5)),
-    url("/images/banner1.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.she_banner_home2 {
-  width: 100%;
-  height: 600px;
-  padding: 0px;
-  background: linear-gradient(rgba(156, 177, 255, 0.5),
-      rgba(156, 177, 255, 0.5)),
-    url("/images/banner2.jpg");
-  background-size: 100%;
-}
-
-.she_banner_home3 {
-  width: 100%;
-  height: 600px;
-  padding: 0px;
-  background: linear-gradient(rgba(156, 177, 255, 0.5),
-      rgba(156, 177, 255, 0.5)),
-    url("/images/banner3.jpg");
-  background-size: 100%;
-}
-
-.she_banner_home_content {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.she_home_left {
-  width: 70%;
-  padding-top: 100px;
-}
-
-.she_home_left h1 {
-  font-size: 50px;
-  font-weight: 900 !important;
-  color: #fff;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-}
-
-.she_home_left h4 {
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.she_home_left p {
-  font-size: 16px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  color: #fff;
-}
-
-/* Home Banner Sections */
-
 /* Doctor List */
 
 .she_sub_heading {
@@ -579,8 +508,55 @@
 }
 
 
-
 /* Services Start */
+
+/* Home Pages CSS */
+
+.she_home_supplyProduct {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.she_home_supplyProduct a {
+  width: 32%;
+  text-decoration: none;
+  color: #3e3a48;
+}
+
+.she_supplay {
+  width: 100%;
+  border: 1px solid #2525253d;
+  transition: 0.3s linear;
+  background-color: #eeeeee5f;
+  border-radius: 10px;
+}
+
+.she_supplay:hover {
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  transition: 0.5s ease-out;
+  opacity: 0.6;
+}
+
+.she_supplay img {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.she_supplay h4 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0px;
+  padding: 15px 0px;
+  text-transform: uppercase;
+}
+
+
+
+/* Home Pages CSS */
+
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 576px) {
   .she_home_banner {
@@ -626,6 +602,18 @@
     width: 30%;
     border: 2px solid var(--primary-color);
   }
+
+  .she_home_supplyProduct {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .she_home_supplyProduct a {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+
 }
 
 @media only screen and (min-device-width: 577px) and (max-device-width: 800px) {

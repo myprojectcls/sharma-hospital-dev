@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -156,7 +156,7 @@ a {
 
 .slick-dots {
   position: absolute;
-  bottom: -50px !important;
+  bottom: -30px !important;
   display: block;
   width: 100%;
   padding: 0;
@@ -168,8 +168,8 @@ a {
 .slick-dots li {
   position: relative;
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   margin: 0 5px;
   padding: 0;
   cursor: pointer;
@@ -179,8 +179,8 @@ a {
   font-size: 0;
   line-height: 0;
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   padding: 5px;
   cursor: pointer;
   color: transparent;
@@ -201,19 +201,27 @@ a {
 
 .slick-dots li button:before {
   content: "\25CF";
-  font-size: 12px !important;
-  line-height: 20px;
+  font-size: 10px !important;
+  line-height: 10px;
   position: absolute;
   top: 0;
   left: 0;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   text-align: center;
   opacity: 0.25;
-  color: #fff !important;
+  color: #448dfb !important;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-initialized .slick-slide {
+  padding: 25px 10px !important;
+}
+
+.slick-prev {
+  background: '/images/back.png' !important;
 }
 
 .dropdown {
@@ -265,6 +273,13 @@ p {
   z-index: 1;
   display: block;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.she_heading {
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 
@@ -321,6 +336,18 @@ p {
   }
 
   /* Mobile Footer */
+
+  .she_common_button {
+    display: block;
+    margin: auto;
+  }
+
+  .she_heading {
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+
 }
 
 @media only screen and (min-device-width: 577px) and (max-device-width: 800px) {
@@ -332,6 +359,12 @@ p {
   .she_desk_header {
     width: 100%;
   }
+
+  .she_heading {
+    text-align: center;
+    font-size: 31px;
+    text-transform: uppercase;
+  }
 }
 
 @media only screen and (min-device-width: 801px) and (max-device-width: 1000px) {
@@ -342,6 +375,12 @@ p {
 
   .she_desk_header {
     width: 100%;
+  }
+
+  .she_heading {
+    text-align: center;
+    font-size: 31px;
+    text-transform: uppercase;
   }
 }
 
