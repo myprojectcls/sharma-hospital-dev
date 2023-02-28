@@ -118,3 +118,131 @@
 .she_addcon p {
   font-size: 14px;
 }
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 576px) {
+  .she_address_main {
+    display: none;
+  }
+
+  .she_footer_main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .she_footer_block p {
+    text-align: center;
+  }
+
+  .social_media {
+    width: 70%;
+  }
+
+  .she_footer_block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .she_footer_block ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .she_copy_write {
+    width: 100%;
+  }
+
+  .she_copy_write p {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-device-width: 577px) and (max-device-width: 800px) {
+  .she_address_main {
+    display: none;
+  }
+
+  .she_footer_main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .she_footer_block p {
+    text-align: center;
+  }
+
+  .social_media {
+    width: 30%;
+  }
+
+  .she_footer_block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .she_footer_block ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .she_copy_write {
+    width: 100%;
+  }
+
+  .she_copy_write p {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-device-width: 801px) and (max-device-width: 1000px) {
+  .she_address_main {
+    display: none;
+  }
+
+  .she_footer_main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .she_footer_block p {
+    text-align: center;
+  }
+
+  .social_media {
+    width: 30%;
+  }
+
+  .she_footer_block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .she_footer_block ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .she_copy_write {
+    width: 100%;
+  }
+
+  .she_copy_write p {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1200px) {
+}
+@media only screen and (min-device-width: 1201px) and (max-device-width: 1500px) {
+}

@@ -37,7 +37,7 @@ const Header = () => {
                     <div className="container">
                         <div className={styles.she_header}>
                             <div className={styles.she_logo}>
-                                {/* <Link href={'/'}><img src="/images/logo.png" alt="Sharam Hospital Equipment" /></Link> */}
+                                <Link href={'/'}><img src="/images/logo.png" alt="Sharam Hospital Equipment" /></Link>
                             </div>
                             <ul className={styles.she_header_menu}>
                                 <Link href={'/'}><li>Home</li></Link>

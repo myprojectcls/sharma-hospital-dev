@@ -253,6 +253,10 @@ p {
   color: var(--text-color);
 }
 
+.she_mobile_header {
+  display: none;
+}
+
 @media only screen and (min-device-width: 300px) and (max-device-width: 576px) {
   body {
     margin: 0px;
@@ -290,7 +294,7 @@ p {
 
   /* Desktop Footer */
   .she_desk_footer {
-    display: none;
+    display: flex;
   }
 
   /* Deskktop Footer */
@@ -304,6 +308,12 @@ p {
   }
 
   /* Mobile Footer */
+
+  .she_mobile_header {
+    display: block;
+    padding: 10px 0px;
+    background-color: #fff;
+  }
 }
 
 @media only screen and (min-device-width: 577px) and (max-device-width: 800px) {

@@ -1,7 +1,6 @@
 import Layout from '@/src/layout'
 import React, { Fragment } from 'react'
-import styles from '../../../styles/module/home.module.css'
-
+import styles from '../../../styles/module/product.module.css'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Link from 'next/link';
@@ -15,7 +14,7 @@ const homeBanner = {
   infinite: true,
   speed: 10000,
   autoplay: true,
-  fade: false,
+  fade: true,
   variableWidth: false,
   responsive: [
     {
@@ -112,6 +111,30 @@ const Product = () => {
             </div>
           </Slider>
         </section>
+
+        <div className="she_section_card" style={{ backgroundColor: '#fff' }}>
+          <div className="container">
+            <div className={styles.she_product_main}>
+              <div className={styles.she_product_item}>
+                <img src="/images/banner51.jpg" alt="" />
+              </div>
+              <div className={styles.she_product_item}>
+                <img src="/images/banner52.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="she_section_card" style={{ backgroundColor: '#eee' }}>
+          <div className="container">
+            <h1 className={styles.she_sub_heading2}>Our Products</h1>
+            <hr className={styles.she_home_horizental_line2} />
+            <div>
+              
+            </div>
+          </div>
+        </div>
+
       </Layout>
     </Fragment>
   )

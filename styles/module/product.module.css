@@ -1,68 +1,106 @@
-* Home Banner Sections */ .she_home_banner {
-    width: 100%;
+.she_home_banner {
+  width: 100%;
 }
 
 .she_banner_home1 {
-    width: 100%;
-    height: 600px;
-    padding: 0px;
-    background: linear-gradient(rgba(156, 177, 255, 0.5),
-            rgba(156, 177, 255, 0.5)),
-        url("/images/banner1.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  padding: 0px;
+  background: linear-gradient(
+      rgba(156, 177, 255, 0.5),
+      rgba(156, 177, 255, 0.5)
+    ),
+    url("/images/slide-1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .she_banner_home2 {
-    width: 100%;
-    height: 600px;
-    padding: 0px;
-    background: linear-gradient(rgba(156, 177, 255, 0.5),
-            rgba(156, 177, 255, 0.5)),
-        url("/images/banner2.jpg");
-    background-size: 100%;
+  width: 100%;
+  height: 600px;
+  padding: 0px;
+  background: linear-gradient(
+      rgba(156, 177, 255, 0.5),
+      rgba(156, 177, 255, 0.5)
+    ),
+    url("/images/slide-2.jpg");
+  background-size: 100%;
 }
 
 .she_banner_home3 {
-    width: 100%;
-    height: 600px;
-    padding: 0px;
-    background: linear-gradient(rgba(156, 177, 255, 0.5),
-            rgba(156, 177, 255, 0.5)),
-        url("/images/banner3.jpg");
-    background-size: 100%;
+  width: 100%;
+  height: 600px;
+  padding: 0px;
+  background: linear-gradient(
+      rgba(156, 177, 255, 0.5),
+      rgba(156, 177, 255, 0.5)
+    ),
+    url("/images/slide-3.jpg");
+  background-size: 100%;
 }
 
 .she_banner_home_content {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .she_home_left {
-    width: 70%;
-    padding-top: 100px;
+  width: 70%;
+  padding-top: 100px;
 }
 
 .she_home_left h1 {
-    font-size: 50px;
-    font-weight: 900 !important;
-    color: #fff;
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 900 !important;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 
 .she_home_left h4 {
-    font-size: 28px;
-    font-weight: bold;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .she_home_left p {
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #fff;
 }
 
 /* Home Banner Sections */
+
+.she_sub_heading2 {
+  text-align: center;
+  font-size: 36px !important;
+  color: var(--primary-color);
+}
+
+.she_home_horizental_line2 {
+  background-color: var(--primary-color);
+  width: 150px;
+  height: 5px;
+  border: none;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.she_product_main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.she_product_item {
+  width: 48%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+}
+
+.she_product_item img {
+  width: 100%;
+}
