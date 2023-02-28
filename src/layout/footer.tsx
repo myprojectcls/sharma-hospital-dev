@@ -9,35 +9,6 @@ const Footer = () => {
     <Fragment>
       <div className='she_desk_footer'>
         <div className="container">
-          <div className={styles.she_address_main}>
-            <div className={styles.she_col_1}>
-              <span className={styles.she_icon}>
-                <FaMapMarkerAlt />
-              </span>
-              <span className={styles.she_addcon}>
-                <h6>Our Address</h6>
-                <p>GANGA COMPLEX, KANKARBAGH, PATNA-20 (INDIA)</p>
-              </span>
-            </div>
-            <div className={styles.she_col_1}>
-              <span className={styles.she_icon}>
-                <FaPhoneAlt />
-              </span>
-              <span className={styles.she_addcon}>
-                <h6>Call Us</h6>
-                <p>+91 9911325549</p>
-              </span>
-            </div>
-            <div className={styles.she_col_1}>
-              <span className={styles.she_icon}>
-                <FaRegEnvelope />
-              </span>
-              <span className={styles.she_addcon}>
-                <h6>Our Mail</h6>
-                <p>info@sharmahospitalequipment.com</p>
-              </span>
-            </div>
-          </div>
           <div className={styles.she_footer_main}>
             <div className={styles.she_footer_block}>
               <h4>About </h4>
@@ -60,7 +31,7 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className={styles.she_footer_block}>
+            <div className={styles.she_footer_useful}>
               <h4>Useful Links</h4>
               <ul>
                 <li>About</li>
@@ -70,13 +41,25 @@ const Footer = () => {
 
               </ul>
             </div>
-            <div className={styles.she_footer_block}>
+            <div className={styles.she_footer_other}>
               <h4>Other Links</h4>
               <ul>
                 <li>Contact</li>
                 <li>Careers</li>
                 <li>Privacy Policy</li>
                 <li>Terms & Conditions</li>
+              </ul>
+            </div>
+            <div className={styles.she_footer_block}>
+              <h4>Contact Us</h4>
+              <ul>
+                <li>
+                  info@sharmahospitalequipment.com
+                </li>
+                <li>
+                  +91 9911325549 / 8920297423
+                </li>
+                <li>Ganga Complex, Kankarbagh, Patna-20 (INDIA)</li>
               </ul>
             </div>
           </div>
