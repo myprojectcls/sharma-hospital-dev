@@ -1,8 +1,8 @@
 import React from 'react'
 
-const SampleNextArrow = () => {
+const SampleNextArrow = ({ onClick }: any) => {
     return (
-        <div>SampleNextArrow</div>
+        <div onClick={onClick} className="Arrow_left" >Next</div>
     )
 }
 

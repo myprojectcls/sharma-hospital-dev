@@ -3,8 +3,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import styles from '../../../styles/component/prodcutSlider.module.css'
-import SampleNextArrow from './SampleNextArrow';
-import SamplePrevArrow from './SamplePrevArrow';
+import SampleNextArrow from './sampleNextArrow';
+import SamplePrevArrow from './samplePrevArrow';
 
 const productSetting = {
     arrows: true,
@@ -14,8 +14,8 @@ const productSetting = {
     slidesToShow: 4,
     infinite: true,
     swipeToSlide: true,
-    // nextArrow: <SampleNextArrow />,
-    // prevArrow: <SamplePrevArrow />,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
         {
             breakpoint: 1024,

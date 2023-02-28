@@ -1,8 +1,8 @@
 import React from 'react'
 
-const SamplePrevArrow = () => {
+const SamplePrevArrow = ({ onClick, style }: any) => {
     return (
-        <div>SamplePrevArrow</div>
+        <div onClick={onClick} className="Arrow_right" >Prev</div>
     )
 }
 
