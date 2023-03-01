@@ -283,6 +283,38 @@ p {
 }
 
 
+.Arrow_right,
+.Arrow_left {
+  background-image: url('/images/arrow-slider.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  opacity: 0.2;
+}
+
+.Arrow_right {
+  top: 45%;
+  right: -30px;
+  cursor: pointer;
+}
+
+.Arrow_left {
+  top: 45%;
+  left: -30px !important;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.she_home_banner {
+  width: 100%;
+}
+
+.she_home_banner .slick-initialized .slick-slide {
+  padding: 0px !important;
+}
+
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 576px) {
   body {

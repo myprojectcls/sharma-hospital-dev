@@ -44,7 +44,7 @@ const homeBanner = {
 const HomeBanner = () => {
     return (
         <Fragment>
-            <section className={styles.she_home_banner}>
+            <section className='she_home_banner'>
                 <Slider {...homeBanner}>
                     {/* Slider One */}
                     <div className={styles.she_banner_home1}>

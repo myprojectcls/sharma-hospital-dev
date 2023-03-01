@@ -1,32 +1,27 @@
 /* Home Banner Sections */
-
 .she_home_banner {
     width: 100%;
     background-color: #fff;
 }
 
-.slick-initialized .slick-slide {
-    padding: 0px 10px !important;
-}
-
 .she_banner_home1 {
     width: 100%;
     padding: 120px 0px;
-    background: linear-gradient(rgba(131, 106, 255, 0.311), rgba(107, 86, 245, 0.349)), url('/images/banner1.jpg');
+    background: linear-gradient(rgba(131, 106, 255, 0.162), rgba(107, 86, 245, 0.145)), url('/images/banner1.jpg');
     background-size: cover;
 }
 
 .she_banner_home2 {
     width: 100%;
     padding: 120px 0px;
-    background: linear-gradient(rgba(131, 106, 255, 0.311), rgba(107, 86, 245, 0.349)), url('/images/banner2.jpg');
+    background: linear-gradient(rgba(131, 106, 255, 0.162), rgba(107, 86, 245, 0.145)), url('/images/banner2.jpg');
     background-size: cover;
 }
 
 .she_banner_home3 {
     width: 100%;
     padding: 120px 0px;
-    background: linear-gradient(rgba(131, 106, 255, 0.311), rgba(107, 86, 245, 0.349)), url('/images/banner3.jpg');
+    background: linear-gradient(rgba(131, 106, 255, 0.162), rgba(107, 86, 245, 0.145)), url('/images/banner3.jpg');
     background-size: cover;
 }
 
@@ -54,6 +49,7 @@
     font-size: 28px;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
 }
 
 .she_home_left p {

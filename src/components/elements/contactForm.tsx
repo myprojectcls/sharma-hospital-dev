@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react'
-import styles from '../../../styles/module/home.module.css'
+import styles from '../../../styles/component/contactForm.module.css'
 
 const ContactForm = () => {
 
@@ -97,11 +97,11 @@ const ContactForm = () => {
 
     return (
         <Fragment>
-            <section className='she_section_card' style={{ backgroundColor: "#fff" }}>
+            <section className='she_section_card' style={{ backgroundColor: "#ECF2FF" }}>
                 <div className="container">
                     <div className={styles.she_get_tuch_in}>
                         <div className={styles.she_left_gettuchin}>
-                            <img src="/images/she_get_tuch_in.jpg" alt="she_get_tuch_in" />
+                            <img src="/images/get-in-touch.png" alt="she_get_tuch_in" />
                         </div>
                         <div className={styles.she_righ_gettuchin}>
                             <h1>Get In Touch</h1>

@@ -5,6 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import styles from '../../../styles/component/prodcutSlider.module.css'
 import SampleNextArrow from './sampleNextArrow';
 import SamplePrevArrow from './samplePrevArrow';
+import { popularProduct } from '../storeData/popularProduct';
 
 const productSetting = {
     arrows: true,
@@ -37,62 +38,9 @@ const productSetting = {
 };
 
 
-const prodcutData = [
-    {
-        images: '/images/img1.png',
-        alt: 'icu bed',
-        title: 'ICU BED'
-    },
-    {
-        images: '/images/img2.png',
-        alt: 'icu bed',
-        title: 'ICU BED'
-    },
-    {
-        images: '/images/img3.jpg',
-        alt: 'icu bed',
-        title: 'ICU BED'
-    },
-    {
-        images: '/images/img4.jpg',
-        alt: 'icu bed',
-        title: 'ICU BED'
-    },
-    {
-        images: '/images/img6.jpg',
-        alt: 'icu bed',
-        title: 'ICU BED'
-    },
-    {
-        images: '/images/img5.jpg',
-        alt: 'icu bed',
-        title: 'ICU BED'
-    },
-    {
-        images: '/images/img7.jpg',
-        alt: 'icu bed',
-        title: 'ICU BED'
-    },
-    {
-        images: '/images/img8.jpg',
-        alt: 'icu bed',
-        title: 'ICU BED'
-    },
-    {
-        images: '/images/img9.jpg',
-        alt: 'icu bed',
-        title: 'ICU BED'
-    },
-    {
-        images: '/images/img10.jpg',
-        alt: 'icu bed',
-        title: 'ICU BED'
-    },
-
-]
 
 
-const ProdcutSlider = () => {
+const PopularProduct = () => {
     return (
         <Fragment>
             <div className="she_section_card" style={{ backgroundColor: '#fff' }}>
@@ -102,7 +50,7 @@ const ProdcutSlider = () => {
                     <div className={styles.she_product_main}>
                         <Slider {...productSetting}>
                             {
-                                prodcutData?.map((item, index) => {
+                                popularProduct?.map((item, index) => {
                                     return (
                                         <div key={index} className={styles.she_slide_card}>
                                             <img src={item.images} alt={item.alt} />
@@ -120,4 +68,4 @@ const ProdcutSlider = () => {
     )
 }
 
-export default ProdcutSlider
+export default PopularProduct
