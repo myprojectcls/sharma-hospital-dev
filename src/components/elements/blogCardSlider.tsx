@@ -47,7 +47,7 @@ const BlogCardSlider = () => {
         <Fragment>
             <div className="she_section_card" style={{ backgroundColor: '#fff' }}>
                 <div className="container">
-                    <h1 className='she_heading'>Newest Blog</h1>
+                    <h1 className='she_heading'>Latest Blog Posts</h1>
                     <hr className={styles.she_home_horizental_line2} />
                     <div className={styles.she_product_main}>
                         <Slider {...blogSetting}>

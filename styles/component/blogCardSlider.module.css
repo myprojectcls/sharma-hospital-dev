@@ -16,6 +16,7 @@
     width: 100%;
     background-color: #3E54AC;
     border-radius: 5px;
+    border: 1px solid #3E54AC;
 }
 
 .she_blog_card img {
@@ -77,9 +78,18 @@
     background-color: #3E54AC;
     border-radius: 50px;
     outline: none;
-    border: none;
+    border: 1px solid #3E54AC;
     cursor: pointer;
     color: #fff;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.blog_card_ctn button:hover {
+    background-color: #fff;
+    color: #3E54AC;
+    border: 1px solid #3E54AC;
+    transition: 0.5s ease;
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 576px) {
