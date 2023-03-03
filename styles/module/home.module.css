@@ -523,6 +523,306 @@
 
 /* Home Pages CSS */
 
+/* About Section start */
+
+.she_about_banner {
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.she_about_header {
+  width: 100%;
+  padding: 100px 0px 0px 0px;
+}
+
+.she_about_header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.she_about_header ul li {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+.she_about_header ul li:nth-child(1) {
+  border-right: 1px solid #ccc;
+}
+
+
+
+.she_about_header ul li {
+  color: #fff;
+}
+
+.she_about_header ul .active {
+  color: #3e3a48;
+}
+
+.she_wwd {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.she_left_wwd {
+  width: 48%;
+}
+
+.she_left_wwd img {
+  width: 100%;
+}
+
+.she_right_wwd {
+  width: 48%;
+}
+
+.she_right_wwd h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.she_right_wwd h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.she_right_wwd p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.she_right_wwd button {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.she_wwd_head {
+  text-align: center;
+  font-size: 36px;
+}
+
+.seh_wwd_subheade {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  color: #3e3a48;
+}
+
+.she_wwd_help {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.she_wwd_card {
+  width: 31%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  transition: all .25s cubic-bezier(.645, .045, .355, 1);
+  cursor: pointer;
+}
+
+.she_wwd_card:hover {
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.she_wwd_card img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.she_card_centents {
+  width: 100%;
+  padding: 20px;
+}
+
+.she_card_centents h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.she_card_centents ul {
+  width: 100%;
+  padding: 0px 0px 0px 15px;
+  margin: 0px;
+}
+
+.she_card_centents ul li {
+  list-style: disc;
+  font-size: 14px;
+  color: #3e3a48aa;
+  line-height: 1.8;
+}
+
+.happy_clients_number {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.she_number_box {
+  width: 32%;
+}
+
+.she_number_box h1 {
+  font-size: 45px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.she_number_box h4 {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+}
+
+.she_clients_card {
+  width: 100%;
+  background-image: linear-gradient(228deg, #f6fafe 0%, #edeff6 82%);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.she_clients_card h4 {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.she_clients_card h4::after {
+  content: '';
+  top: 0px;
+  width: 34px;
+  height: 28px;
+  background: url(/images/testimonial-icon.png) no-repeat center;
+  background-size: auto;
+  background-size: 100% auto;
+}
+
+.she_clients_card p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.she_clients_card h6 {
+  font-size: 16px;
+}
+
+/* About Section start */
+
+/* Blog Section Start */
+
+/* box-shadow: 0 0 10px 0 rgba(148, 146, 245, .2);
+margin-bottom: 30px;
+overflow: hidden;
+text-align: left;
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out; */
+
+.she_blog_main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.she_left_blog {
+  width: 70%;
+}
+
+.she_card_blog {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.she_card_blog img {
+  width: 100%;
+  height: 300px;
+}
+
+.she_right_blog {
+  width: 28%;
+}
+
+.blog_img {
+  width: 100%;
+  display: flex;
+}
+
+.blog_img img {
+  width: 100%;
+}
+
+.blog_card_ctn {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.blog_date {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.blog_date span {
+  margin-right: 10px;
+}
+
+.blog_card_ctn h4 {
+  color: #3E54AC;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+.blog_card_ctn p {
+  margin-bottom: 10px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog_card_ctn button {
+  padding: 8px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #3E54AC;
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid #3E54AC;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+/* Blog Section End */
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 576px) {
   .she_home_banner {
@@ -599,6 +899,122 @@
     width: 100%;
   }
 
+  .she_about_banner {
+    width: 100%;
+    padding: 40px 0px;
+  }
+
+  .she_about_header {
+    padding: 40px 0px;
+  }
+
+  .she_wwd {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .she_left_wwd {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .she_left_wwd img {
+    width: 100%;
+  }
+
+  .she_right_wwd {
+    width: 100%;
+  }
+
+  .she_right_wwd h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .she_right_wwd h4 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .she_right_wwd p {
+    font-size: 14px;
+  }
+
+  .she_right_wwd button {
+    display: block;
+    margin: auto;
+  }
+
+  .she_wwd_head {
+    font-size: 28px;
+  }
+
+  .seh_wwd_subheade {
+    font-size: 14px;
+  }
+
+  .she_wwd_help {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .she_wwd_card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .she_wwd_card img {
+    width: 100%;
+  }
+
+  .she_card_centents {
+    width: 100%;
+  }
+
+  .she_card_centents h4 {
+    font-size: 18px;
+  }
+
+  .she_card_centents ul li {
+    font-style: 14px;
+  }
+
+  .happy_clients_number {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .she_number_box {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .she_number_box h1 {
+    font-size: 36px;
+  }
+
+  .she_number_box h4 {
+    font-size: 16px;
+  }
+
+  .she_blog_main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .she_left_blog {
+    width: 100%;
+  }
+
+  .she_right_blog {
+    width: 100%;
+  }
+
+  .she_card_blog img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media only screen and (min-device-width: 577px) and (max-device-width: 800px) {

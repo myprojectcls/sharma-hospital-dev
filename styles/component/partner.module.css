@@ -1,0 +1,40 @@
+.she_partner_card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card_partner_img {
+    width: 18%;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card_partner_img img {
+    width: 60%;
+    height: 50%;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 576px) {
+    .card_partner_img {
+        width: 40%;
+        display: flex;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .card_partner_img img {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-device-width: 577px) and (max-device-width: 800px) {}
+
+@media only screen and (min-device-width: 801px) and (max-device-width: 1000px) {}
+
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1200px) {}
+
+@media only screen and (min-device-width: 1201px) and (max-device-width: 1500px) {}

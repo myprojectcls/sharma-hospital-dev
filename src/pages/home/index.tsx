@@ -9,6 +9,7 @@ import ProdcutSlider from '@/src/components/elements/popularProduct';
 import PopularProduct from '@/src/components/elements/popularProduct';
 import LatestProduct from '@/src/components/elements/latestProdcut';
 import BlogCardSlider from '@/src/components/elements/blogCardSlider';
+import Partner from '@/src/components/elements/partner';
 
 
 
@@ -21,6 +22,7 @@ const Home = () => {
         {/* Home Banner Section Start */}
         <HomeBanner />
         {/* Home Banner Section End */}
+
 
         {/* Supply our product */}
 
@@ -87,11 +89,11 @@ const Home = () => {
 
         {/* Most Product SHE */}
 
-
         {/* Enquiry Form Section */}
         <ContactForm />
         {/* Enquiry Form Section */}
 
+        <Partner />
 
         {/* Home Blog Section Start */}
         <BlogCardSlider />
